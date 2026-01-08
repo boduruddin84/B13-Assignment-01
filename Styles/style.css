@@ -32,6 +32,7 @@
 }
 
 /* Main Style */
+/* Nav Bar Started */
 
 .header-container {
     padding-top: 16px;
@@ -43,6 +44,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 16px;
 }
 
 .logo img {
@@ -63,3 +65,79 @@
     font-weight: 500;
 }
 
+/* Nav Bar End */
+
+/* Hero Section Start */
+
+.hero-container {
+    background-image: url("../assets/hero-bg.png");
+    text-align: center;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #30B868;
+}
+
+.early-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #30B868;
+    padding: 8px 12px;
+    gap: 6px;
+    border-radius: 1000px;
+    margin-top: 115px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.early-btn:hover {
+    background-color: #cfbebe;
+}
+
+.hero-container h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
+
+.hero-container p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.btn-tringle {
+    border-top: 10px solid transparent;
+	border-left: 20px solid #FFFFFF;
+	border-bottom: 10px solid transparent;
+    display: inline-block;
+}
+
+.hero-bottom-btn {
+    margin-bottom: 179px;
+    margin-left: 16px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.hero-bottom-btn:hover {
+    background-color: #3a2828;
+}
+/* Hero Section End */
