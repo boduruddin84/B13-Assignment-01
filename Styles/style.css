@@ -290,3 +290,56 @@
     margin-bottom: 16px;
 }
 /* Ready To Think Section End */
+
+/* Logo Footer Section Start */
+
+.logo-footer-container {
+    background-color: #001931;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.logo-footer {
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.logo-footer p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.logo-footer i {
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.copyright-section {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.copyright-section hr {
+    border: 1px solid #0000002c;
+}
+
+.copyright-section p {
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Logo Footer Section End */
