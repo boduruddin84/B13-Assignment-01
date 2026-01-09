@@ -239,6 +239,7 @@
     font-weight: 700;
     line-height: 58px;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 
 .details-container h4 {
@@ -254,3 +255,38 @@
     padding-right: 6px;
 }
 /* second Brain Section End */
+
+/* Ready To Think Section Start */
+
+.ready-to-think-container {
+    max-width: 1360px;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+
+.ready-to-think-container h2 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.ready-to-think-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+.ready-to-think-container button {
+    margin-bottom: 16px;
+}
+/* Ready To Think Section End */
